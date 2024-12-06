@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Basket Items */
+.basket-item img {
+    border-radius: 8px;
+}
+
+.basket-item h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Order Summary */
+.order-summary {
+    border: 1px solid #ddd;
+}
+.order-summary h4 {
+    font-weight: 700;
+}
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Basket Items */
+.basket-item img {
+    border-radius: 8px;
+}
+
+.basket-item h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Order Summary */
+.order-summary {
+    border: 1px solid #ddd;
+}
+.order-summary h4 {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+}
+
+/* Change button color */
+.btn-success {
+    background-color: #426B1F;
+    border-color: #c2a9b8;
+}
+
+/* Optional: Change button hover state */
+.btn-success:hover {
+    background-color: #365818; /* Slightly darker shade for hover effect */
+    border-color: #365818;
+}
+/* Add rounded borders to order summary */
+/* Add background color to order summary */
+.order-summary {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #FAFAF5; /* Light gray background inside */
+}
+
+/* Add background color to basket items */
+.basket-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #FAFAF5; /* White background inside */
+    margin-bottom: 10px; /* Add spacing between items */
+    padding: 10px; /* Adjust padding for better layout */
+}
+
+.btn-success {
+    border-radius: 6px !important; /* Slightly rounded */
+}
